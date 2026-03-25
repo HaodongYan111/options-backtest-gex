@@ -91,6 +91,8 @@ For each signal:
 | UNKNOWN | 27 | 19% | -$4,650 | -$172 |
 
 ### Phase 3: Filtered Results (Zone Rules Applied)
+![GEX Zone Analysis](asset/gex_zone_analysis.png)
+![Strategy Evolution](asset/scenario_matrix.png)
 
 After removing `NEAR_RESIST` and `UNKNOWN` trades, a scenario matrix over different TP/SL configurations shows consistent improvement:
 
