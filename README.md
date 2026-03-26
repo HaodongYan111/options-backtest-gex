@@ -106,7 +106,7 @@ After removing `NEAR_RESIST` and `UNKNOWN` trades, a scenario matrix over differ
 | TP200_T30_G30 | 29 | 41.4% | $5,324 | 2.13 | $184 |
 | TP300_T50_G25 | 29 | 48.3% | $9,377 | 2.84 | $323 |
 
-*Scenario naming: `NoTP` = let winners run, `T30/T50` = time stop at 30/50% DTE remaining, `G20-G40` = GEX wall proximity threshold for SL placement.*
+*Scenario naming: `NoTP` = let winners run, `T30/T50` = Trailing start at 30%/50%, `G20-G40` = the distance between trailing stop and high water mark.G20 = stop at 80% of high water mark(triggered at 20% drawdown)  .*
 
 **The core research result:** GEX zone filtering transforms a marginal strategy (PF 1.27) into a robust one (PF 2.6–3.4). The improvement is not from curve-fitting exit parameters — it's from *removing structurally negative-EV trades* identified through zone analysis. Every scenario in the matrix outperforms the unfiltered baseline.
 
